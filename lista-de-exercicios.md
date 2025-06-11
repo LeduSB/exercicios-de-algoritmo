@@ -36,11 +36,14 @@ Este documento contém a transcrição de uma série de exercícios de algoritmo
 25. Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos, sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar noutro.
 26. Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor.
 27. Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). Calcule e mostre a velocidade média em $km/h$.
-28. Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço sabendo que:
-    * Venda Mensal $<500$ e Preço Atual $<30$: Preço Novo + 10%
-    * Venda Mensal $>=500~e<1000$ e Preço Atual $>=30~e<80$: Preço Novo +15%
-    * Venda Mensal $>=1000$ e Preço Atual $>=80$: Preço Novo - 5%
-    * Obs.: para outras condições, preço novo será igual ao preço atual.
+28. Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço sabendo que:  
+```
+Venda Mensal            Preço Atual            Preço Novo  
+< 500                   < 30 	               + 10%
+>= 500 e < 1000         >= 30 e < 80	       + 15%
+>= 1000                 >= 80                  - 5%
+```  
+* Obs.: para outras condições, preço novo será igual ao preço atual.
 29. Receba o tipo de investimento ($1=$ poupança e $2=$ renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança $=3\%$ e a renda fixa $=5\%$. Demais tipos não serão considerados.
 30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a idade em anos, meses e dias, considerando os anos bissextos.
 31. Calcule e mostre o quadrado dos números entre 10 e 150.
