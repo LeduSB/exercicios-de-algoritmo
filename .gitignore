@@ -1,0 +1,17 @@
+# Arquivos gerados pela compilação
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+/out/
+
+# Logs
+*.log
+logs/
+
+# Arquivos de IDE (IntelliJ IDEA)
+.project
+.classpath
+.settings/
